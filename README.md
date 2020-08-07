@@ -1,16 +1,8 @@
-# bloc_tutorial
+# BLoC Pattern
 
-A new Flutter project.
+BLoC stands for Business Logic Components. The gist of BLoC is that everything in the app should be represented as stream of events: widgets submit events; other widgets will respond. BLoC sits in the middle, managing the conversation. Dart even comes with syntax for working with streams that is baked into the language!
 
-## Getting Started
+The goal of this library is to make it easy to separate presentation from business logic, facilitating testability and reusability.
 
-This project is a starting point for a Flutter application.
+![](screenshots/bloc_architecture.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
