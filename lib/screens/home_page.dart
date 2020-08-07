@@ -42,7 +42,6 @@ class MyHomePage extends StatelessWidget {
                         '${state.users[index].email}\n${state.users[index].phone.split(' ')[0]}',
                       ),
                       isThreeLine: true,
-                      hoverColor: Colors.grey,
                     );
                   },
                 ),
